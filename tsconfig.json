@@ -1,0 +1,14 @@
+{
+    "compilerOptions":{
+        "moduleResolution": "node",
+        "outDir": "app/dist/js",
+        "target": "ES2020",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": ["app/src/**/*"]
+}
